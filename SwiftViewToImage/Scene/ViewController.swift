@@ -69,7 +69,8 @@ private extension ViewController {
         scrollView.contentSize = customView.bounds.size
         
         scrollView.snp.makeConstraints {
-            $0.top.leading.trailing.equalToSuperview()
+            $0.top.equalTo(view.safeAreaLayoutGuide)
+            $0.leading.trailing.equalToSuperview()
             $0.bottom.equalTo(createImageButton.snp.top).offset(-16.0)
         }
         
@@ -77,7 +78,7 @@ private extension ViewController {
         createImageButton.snp.makeConstraints {
             $0.leading.equalToSuperview().offset(16)
             $0.trailing.equalToSuperview().offset(-16)
-            $0.bottom.equalToSuperview()
+            $0.bottom.equalTo(view.safeAreaLayoutGuide)
             $0.height.equalTo(50)
             
         }
