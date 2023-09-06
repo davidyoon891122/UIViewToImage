@@ -20,6 +20,7 @@ enum DeviceType {
     case iPhone14
     case iPhone14ProMax
     case iPhone14Plus
+    case iPad
 
     func name() -> String {
         switch self {
@@ -47,6 +48,8 @@ enum DeviceType {
             return "iPhone 14 Pro Max"
         case .iPhone14Plus:
             return "iPhone 14 Plus"
+        case .iPad:
+            return "iPad Pro (12.9-inch) (6th generation)"
         }
     }
 }
