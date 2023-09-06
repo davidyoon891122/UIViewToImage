@@ -70,11 +70,11 @@
 		3231028E2AA8076A0016BFAE /* SwiftViewToImage */ = {
 			isa = PBXGroup;
 			children = (
-				32561BD62AA826CC007170D6 /* Delegate */,
-				32561BD72AA826D9007170D6 /* Scene */,
 				323102982AA8076B0016BFAE /* Assets.xcassets */,
 				3231029A2AA8076B0016BFAE /* LaunchScreen.storyboard */,
 				3231029D2AA8076B0016BFAE /* Info.plist */,
+				32561BD62AA826CC007170D6 /* Delegate */,
+				32561BD72AA826D9007170D6 /* Scene */,
 				32561BD52AA82535007170D6 /* Preview */,
 				32561BE32AA852A5007170D6 /* Extension */,
 				32561BE22AA8529A007170D6 /* Tool */,
