@@ -28,11 +28,10 @@ private extension TestViewController {
         let customView = ImageProcesor.createView(
             image: UIImage(named: "mbti")!,
             title: "최재현님의 9월 첫째주 투자 MBTI",
-//            content: nil
             content: "상위 5%"
         )
         
-        ImageProcesor.saveImageToPngFile(image: customView.asImage())
+        ImageProcesor.saveUIImageToPNGFile(image: customView.asImage())
         
         [
             scrollView

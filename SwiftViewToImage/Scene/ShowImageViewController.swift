@@ -96,7 +96,7 @@ private extension ShowImageViewController {
     
     @objc
     func didTapCreatePNGButton() {
-        ImageProcesor.saveImageToPngFile(image: targetImage)
+        ImageProcesor.saveUIImageToPNGFile(image: targetImage)
     }
 }
 
